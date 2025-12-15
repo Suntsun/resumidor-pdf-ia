@@ -17,6 +17,18 @@ Aplicación en Python que permite subir un archivo PDF y obtener un resumen auto
 
 ## Cómo ejecutar el proyecto
 
+
+
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/TU_USUARIO/resumidor-pdf-ia.git
+git clone https://github.com/Suntsun/resumidor-pdf-ia.git
+```
+
+2. Instala dependencias:
+```
+pip install -r requirements.txt
+```
+
+3. Ejecuta la app:
+```
+python -m streamlit run resumidor.py
